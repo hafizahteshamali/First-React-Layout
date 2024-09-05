@@ -1,0 +1,74 @@
+.Banner{
+    width: 100%;
+}
+.bannerWrapper{
+    min-height: 90vh;
+    padding: 30px;
+    background: rgb(16, 21, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(16, 21, 34);
+}
+.BannerRotate {
+    flex-direction: row-reverse !important;
+    background: #fff;
+}
+
+.DarkBackground{
+    background: rgb(16, 21, 34);
+}
+.DarkBackground .textWrap h5{
+    color: #fff !important;
+}
+.DarkBackground .textWrap h1{
+    color: #fff !important;
+}
+.DarkBackground .textWrap p{
+    color: rgb(169, 179, 193) !important;
+}
+
+.BannerRotate .textWrap h5{
+    color: #0000;
+}
+.BannerRotate .textWrap h1{
+    color: #000;
+}
+.BannerRotate .textWrap p{
+    color: #000;
+}
+.textWrap{
+    height: 400px;
+    width: 50%;
+    padding: 20px;
+}
+.textWrap h5{
+    color: var(--subTilte-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+.textWrap h1{
+    width: 95%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.textWrap p{
+    color: var(--subTilte-color);
+    font-size: 16px;
+    margin-top: 20px;
+    width: 75%;
+}
+.textWrap button{
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 18px;
+}
+.ImgWrap{
+    height: 400px;
+}
+.ImgWrap img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

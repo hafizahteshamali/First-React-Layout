@@ -1,0 +1,20 @@
+.headerWrapper{
+    width: 100%;
+    background: rgb(16, 21, 34);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.navigation ul li a{
+    color: #ffff;
+    font-size: 18px;
+}

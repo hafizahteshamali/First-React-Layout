@@ -1,0 +1,56 @@
+.cardWrapper{
+    width: 100%;
+    padding: 50px;
+    background: rgb(75, 89, 247);
+}
+.cardWrapper h2{
+    padding: 1px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+.cardBoxes{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;
+}
+.Box{
+    width: 25%;
+    background-color: #242424;
+    margin: 30px 0px;
+    border-radius: 5px;
+    padding: 50px 10px;
+    text-align: center;
+}
+.Box img{
+    height: 70px;
+    width: 90px;
+    object-fit: contain;
+    margin: 10px 0px 10px;
+}
+.Box h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+.Box h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+.Box h6{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.Box p{
+    margin-top: 5px;
+    color: rgb(169, 179, 193);
+}
+.Box button{
+    margin-top: 30px;
+}
