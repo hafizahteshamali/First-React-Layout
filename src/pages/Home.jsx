@@ -3,6 +3,12 @@ import Banner from "../components/Common/Banner/Banner.jsx";
 import {BannerData1, BannerData2, BannerData3, BannerData4 } from "../components/Common/Banner/Banner.js";
 import Card from "../components/Common/Card/Card.jsx";
 import CardData from "../components/Common/Card/Card.js";
+import PreFooter from "../components/PreFooter/PreFooter.jsx";
+import NewsletterData from "../components/PreFooter/PreFooter.js";
+import Footer from "../components/Footer/Footer.jsx";
+import FooterData from "../components/Footer/Footer.js";
+import FooterNav from "../components/FooterNav/FooterNav.jsx";
+import footerNavData from "../components/FooterNav/FooterNav.js";
 
 
 function Home() {
@@ -14,6 +20,9 @@ function Home() {
       <Banner Bdata1={BannerData3}/>
       <Card Data={CardData}/>
       <Banner isrotate isBackground Bdata1={BannerData4}/>
+      <PreFooter data={NewsletterData}/>
+      <Footer FData={FooterData}/>
+      <FooterNav footericonData={footerNavData}/>
       </>
   )
 }

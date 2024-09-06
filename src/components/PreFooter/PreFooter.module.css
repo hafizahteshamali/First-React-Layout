@@ -1,0 +1,42 @@
+.newsletter{
+    width: 100%;
+    background-color: rgb(16, 21, 34);
+    padding: 30px 0;
+}
+.newsletter h1{
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+    margin: 10px 0;
+}
+.newsletter h3{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.inputWrapper{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 20px;
+}
+.inputWrapper input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+.inputWrapper button{
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+}

@@ -1,0 +1,20 @@
+.footerWrapper{
+    width: 100%;
+    background-color: rgb(16, 21, 34);
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.footerBox{
+    padding: 10px;
+}
+.footerBox ul li h4{
+    font-size: 25px;
+    color: #fff;
+}
+.footerBox ul li{
+    margin: 5px 0px;
+}
+.footerBox ul li a{
+    color: #fff;
+}

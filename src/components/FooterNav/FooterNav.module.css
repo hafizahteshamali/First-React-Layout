@@ -1,0 +1,22 @@
+.footernavWrapper{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(16, 21, 34);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    color: #fff;
+    font-size: 17px;
+}
+.iconWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.iconWrapper i{
+    color: #fff;
+    font-size: 30px;
+}
