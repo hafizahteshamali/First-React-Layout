@@ -1,7 +1,8 @@
+import { NavLink } from "react-router-dom";
 import HeaderStyle from "./Header.module.css";
 
 
-function Header() {
+function Header({NavbarData}) {
   return (
     <div className={HeaderStyle.headerWrapper}>
         <div className="HeaderStyle.logoWrapper">
@@ -10,9 +11,13 @@ function Header() {
 
         <div className={HeaderStyle.navigation}>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Products</a></li>
+                {
+                  NavbarData.map((item, index)=>(
+                  <li key={index}>
+                  <NavLink to={item.NavLink}>{item.NavName}</NavLink>
+                  </li>
+                  ))
+                }
                 <button className="btn">Signup</button>
             </ul>
         </div>
